@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function StatsBanner() {
   const statsData = [
     {
@@ -23,7 +21,7 @@ export default function StatsBanner() {
   ];
 
   return (
-    <section className="w-full bg-gradient-to-r from-[#6322eb] via-[#7d3bf3] to-[#a35cfc] text-white py-16 px-6 relative overflow-hidden font-sans">
+    <section className="w-full bg-linear-to-r from-[#6322eb] via-[#7d3bf3] to-[#a35cfc] text-white py-16 px-6 relative overflow-hidden font-sans">
       {/* Background Graphic Asset: Wave lines overlapping the right side exactly like the mockup image */}
       <div className="absolute right-0 top-0 h-full w-1/3 opacity-40 pointer-events-none hidden md:block">
         <svg

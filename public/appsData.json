@@ -1,0 +1,272 @@
+[
+  {
+    "id": 101,
+    "title": "VS Code Mobile Sync",
+    "companyName": "Microsoft Corporation",
+    "image": "https://code.visualstudio.com/assets/apple-touch-icon.png",
+    "description": "Streamline your development workflow by syncing your workspace settings, extensions, and snippets securely between desktop and mobile environments.",
+    "size": 42.5,
+    "reviews": 12450,
+    "ratingAvg": 4.8,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 450 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 10500 }
+    ]
+  },
+  {
+    "id": 102,
+    "title": "Tailwind CSS Mobile Playground",
+    "companyName": "Tailwind Labs",
+    "image": "https://tailwindcss.com/favicons/apple-touch-icon.png",
+    "description": "Prototype UI layouts on the go with a fully interactive utility-first sandbox editor featuring autocomplete classes and instant live reload rendering.",
+    "size": 18.2,
+    "reviews": 4820,
+    "ratingAvg": 4.6,
+    "downloads": 350000,
+    "ratings": [
+      { "name": "1 star", "count": 95 },
+      { "name": "2 star", "count": 115 },
+      { "name": "3 star", "count": 310 },
+      { "name": "4 star", "count": 890 },
+      { "name": "5 star", "count": 3410 }
+    ]
+  },
+  {
+    "id": 103,
+    "title": "Spotify: Music and Podcasts",
+    "companyName": "Spotify AB",
+    "image": "https://www.scdn.co/ico/apple-touch-icon-144x144.png",
+    "description": "Stream millions of songs, discover personalized algorithmic playlists, and listen to thousands of exclusive podcasts with high-fidelity audio streams.",
+    "size": 78.4,
+    "reviews": 28450000,
+    "ratingAvg": 4.7,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 450000 },
+      { "name": "2 star", "count": 320000 },
+      { "name": "3 star", "count": 1180000 },
+      { "name": "4 star", "count": 4500000 },
+      { "name": "5 star", "count": 22000000 }
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "image": "https://a.slack-edge.com/80511/marketing/img/meta/slack_logo_240.png",
+    "description": "Bring team communication, dynamic channels, automated workflows, and tool integrations together in one centralized collaborative hub.",
+    "size": 64.1,
+    "reviews": 185000,
+    "ratingAvg": 4.4,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 7200 },
+      { "name": "2 star", "count": 5400 },
+      { "name": "3 star", "count": 14400 },
+      { "name": "4 star", "count": 38000 },
+      { "name": "5 star", "count": 120000 }
+    ]
+  },
+  {
+    "id": 105,
+    "title": "Figma",
+    "companyName": "Figma Inc.",
+    "image": "https://static.figma.com/app/icon/1/favicon.png",
+    "description": "View prototypes, drop contextual feedback pins, track presentation designs, and monitor active developer handoff layouts right from your workspace.",
+    "size": 32.9,
+    "reviews": 12800,
+    "ratingAvg": 4.5,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 290 },
+      { "name": "3 star", "count": 940 },
+      { "name": "4 star", "count": 2450 },
+      { "name": "5 star", "count": 8800 }
+    ]
+  },
+  {
+    "id": 106,
+    "title": "GitHub Mobile",
+    "companyName": "GitHub, Inc.",
+    "image": "https://github.githubassets.com/favicons/favicon.png",
+    "description": "Review lines of code, merge pull requests, triage notifications, assign issues, and respond to discussions without sitting at a desktop console.",
+    "size": 29.5,
+    "reviews": 64200,
+    "ratingAvg": 4.7,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 840 },
+      { "name": "2 star", "count": 610 },
+      { "name": "3 star", "count": 2150 },
+      { "name": "4 star", "count": 9100 },
+      { "name": "5 star", "count": 51500 }
+    ]
+  },
+  {
+    "id": 107,
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "image": "https://discord.com/assets/apple-touch-icon.png",
+    "description": "Create automated spaces for communities with custom voice channels, text message modules, high-framerate screensharing, and API bot extensions.",
+    "size": 91.2,
+    "reviews": 5340000,
+    "ratingAvg": 4.5,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 210000 },
+      { "name": "2 star", "count": 130000 },
+      { "name": "3 star", "count": 390000 },
+      { "name": "4 star", "count": 960000 },
+      { "name": "5 star", "count": 3650000 }
+    ]
+  },
+  {
+    "id": 108,
+    "title": "Notion",
+    "companyName": "Notion Labs, Inc.",
+    "image": "https://www.notion.so/images/logo-ios.png",
+    "description": "A unified customizable wiki canvas for documents, relational databases, kanban sprint tracking, and automated task checklists.",
+    "size": 39.8,
+    "reviews": 48900,
+    "ratingAvg": 4.6,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 1100 },
+      { "name": "2 star", "count": 980 },
+      { "name": "3 star", "count": 3200 },
+      { "name": "4 star", "count": 8900 },
+      { "name": "5 star", "count": 34720 }
+    ]
+  },
+  {
+    "id": 109,
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
+    "image": "https://s.pinimg.com/images/favicon/apple-touch-icon-180x180.png",
+    "description": "Discover home inspiration recipe ideas, UI boards, digital typography, architectural styling patterns, and dynamic DIY project catalogs.",
+    "size": 52.3,
+    "reviews": 9420000,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 230000 },
+      { "name": "2 star", "count": 170000 },
+      { "name": "3 star", "count": 580000 },
+      { "name": "4 star", "count": 1820000 },
+      { "name": "5 star", "count": 6620000 }
+    ]
+  },
+  {
+    "id": 110,
+    "title": "Duolingo",
+    "companyName": "Duolingo Inc.",
+    "image": "https://d35aaqx5ub3pm2.cloudfront.net/images/favicon.ico",
+    "description": "Learn a secondary language with gamified daily progression exercises, bite-sized syntax patterns, structural grammar drills, and listening tests.",
+    "size": 47.6,
+    "reviews": 18200000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 340000 },
+      { "name": "2 star", "count": 210000 },
+      { "name": "3 star", "count": 740000 },
+      { "name": "4 star", "count": 2890000 },
+      { "name": "5 star", "count": 14020000 }
+    ]
+  },
+  {
+    "id": 111,
+    "title": "Calm",
+    "companyName": "Calm.com, Inc.",
+    "image": "https://www.calm.com/_next/static/images/apple-touch-icon-180x180-fb2c1f907673c24b611e389e02377b2b.png",
+    "description": "Improve your sleep cycles, decrease general anxiety levels, and train mindful breathing patterns with targeted audio-guided meditation tracks.",
+    "size": 88.1,
+    "reviews": 512000,
+    "ratingAvg": 4.8,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 6200 },
+      { "name": "2 star", "count": 4800 },
+      { "name": "3 star", "count": 15400 },
+      { "name": "4 star", "count": 52600 },
+      { "name": "5 star", "count": 433000 }
+    ]
+  },
+  {
+    "id": 112,
+    "title": "Airbnb",
+    "companyName": "Airbnb Inc.",
+    "image": "https://a0.muscache.com/airbnb/static/logotype_favicon-21cc8e6c6a2cca43f851d2d7e0da085f.ico",
+    "description": "Book architectural properties, distinct vacation rentals, remote work cabins, and immersive local adventures around the globe.",
+    "size": 71.3,
+    "reviews": 734000,
+    "ratingAvg": 4.5,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 28000 },
+      { "name": "2 star", "count": 16000 },
+      { "name": "3 star", "count": 49000 },
+      { "name": "4 star", "count": 131000 },
+      { "name": "5 star", "count": 510000 }
+    ]
+  },
+  {
+    "id": 113,
+    "title": "Trello",
+    "companyName": "Atlassian",
+    "image": "https://trello.com/favicon.ico",
+    "description": "Organize tasks, map active feature columns, configure automated check-lists, and track visual team productivity inside modern Kanban boards.",
+    "size": 25.4,
+    "reviews": 112000,
+    "ratingAvg": 4.4,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 4100 },
+      { "name": "2 star", "count": 3200 },
+      { "name": "3 star", "count": 9100 },
+      { "name": "4 star", "count": 24600 },
+      { "name": "5 star", "count": 71000 }
+    ]
+  },
+  {
+    "id": 114,
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "image": "https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-180x180.png",
+    "description": "Dive deep into distinct discussion subreddits regarding programming, specific local academic centers, digital design arrays, and community forums.",
+    "size": 49.9,
+    "reviews": 2910000,
+    "ratingAvg": 4.2,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 240000 },
+      { "name": "2 star", "count": 110000 },
+      { "name": "3 star", "count": 260000 },
+      { "name": "4 star", "count": 580000 },
+      { "name": "5 star", "count": 1720000 }
+    ]
+  },
+  {
+    "id": 115,
+    "title": "Zoom Workplace",
+    "companyName": "Zoom Video Communications",
+    "image": "https://st1.zoom.us/zoom.ico",
+    "description": "Connect globally with enterprise video calling spaces, shared digital dynamic whiteboards, interactive team chat threads, and cloud recording assets.",
+    "size": 82.7,
+    "reviews": 3420000,
+    "ratingAvg": 4.3,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 210000 },
+      { "name": "2 star", "count": 98000 },
+      { "name": "3 star", "count": 292000 },
+      { "name": "4 star", "count": 680000 },
+      { "name": "5 star", "count": 2140000 }
+    ]
+  }
+]
