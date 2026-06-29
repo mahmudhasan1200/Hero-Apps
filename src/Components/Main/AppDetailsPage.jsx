@@ -4,6 +4,10 @@ import downloadIcon from "../assets/icon-downloads.png";
 import ratingIcon from "../assets/icon-ratings.png";
 import reviewIcon from "../assets/icon-review.png";
 import { FaArrowLeftLong } from "react-icons/fa6";
+import { useContext } from "react";
+import { AppContext } from "../GlobalContext/AppContext";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function AppDetailsPage() {
   // the data for the App details
@@ -11,8 +15,33 @@ export default function AppDetailsPage() {
   const { appId } = useParams();
   const app = appData?.find((app) => app.id === Number(appId));
 
+  // Pulling the Global Context Data
+  const { installApp, installedApps } = useContext(AppContext);
+  if (!app) {
+    return (
+      <div className="text-center py-20 font-sans text-error">
+        Application Not Found!
+      </div>
+    );
+  }
+  // The runtime check for installed apps
+  const isInstalled = installedApps.some((item) => item.id === app.id);
+
+  // Click Handler for Install toast
+  const handleInstallClick = () => {
+    const success = installApp(app);
+    if (success) {
+      toast.success(`${app.title} has been installed successfully!`, {
+        position: "top-center",
+        autoClose: 3000,
+        theme: "light",
+      });
+    }
+  };
+
   return (
     <div className="w-full bg-[#fdfdfd] min-h-screen flex flex-col justify-between font-sans">
+      <ToastContainer />
       {/* Main Page Area Container */}
       <div className="flex-1 max-w-5xl w-full mx-auto px-4 md:px-8 py-12">
         {/* Back Navigation Link Breadcrumb */}
@@ -84,14 +113,28 @@ export default function AppDetailsPage() {
             </div>
 
             <div className="pt-2">
-              <button className="btn bg-[#00e676] hover:bg-[#00c853] border-none text-white font-bold rounded-xl px-6 h-11 min-h-0 text-xs normal-case shadow-sm">
-                Install Now ({app.size} Mb)
-              </button>
+              {isInstalled ? (
+                // Rendered if app is already inside the installed list
+                <button
+                  disabled
+                  className="btn bg-slate-200 border-none text-slate-400 font-bold rounded-xl px-6 h-11 min-h-0 text-xs normal-case cursor-not-allowed"
+                >
+                  Installed
+                </button>
+              ) : (
+                // Rendered if app is free to be installed
+                <button
+                  onClick={handleInstallClick}
+                  className="btn bg-[#00e676] hover:bg-[#00c853] border-none text-white font-bold rounded-xl px-6 h-11 min-h-0 text-xs normal-case shadow-sm"
+                >
+                  Install Now ({app.size} Mb)
+                </button>
+              )}
             </div>
           </div>
         </div>
 
-        {/* 2. RECHARTS INTEGRATION ZONE: Vertical Analytics Layout matching your screenshot exactly */}
+        {/* 2. RECHARTS INTEGRATION ZONE: Vertical Analytics Layout */}
         <div className="py-12 border-b border-slate-100">
           <h2 className="text-sm font-bold tracking-wider uppercase text-slate-800 mb-6">
             Ratings
@@ -101,8 +144,8 @@ export default function AppDetailsPage() {
           <div className="w-full h-64 font-sans text-xs">
             <ResponsiveContainer width="100%" height="100%">
               <BarChart
-                layout="vertical" // <-- CRITICAL: Rotates the chart box axes 90 degrees
-                data={[...app.ratings].reverse()} // Reverse order ensures 5-star floats to the top row
+                layout="vertical"
+                data={[...app.ratings].reverse()}
                 margin={{ top: 0, right: 50, left: -20, bottom: 0 }}
               >
                 {/* Horizontal configuration setup tracking our star names keys array nodes */}
@@ -114,7 +157,7 @@ export default function AppDetailsPage() {
                   tick={{ fill: "#94A3B8", fontSize: 12, fontWeight: 500 }}
                 />
 
-                {/* Vertical numerical count range scale limits setup (Hidden to match your screenshot mockup look) */}
+                {/* Vertical numerical count range scale limits setup  */}
                 <XAxis type="number" hide />
 
                 {/* The visualization bar node configuration layout attributes */}

@@ -1,7 +1,7 @@
 import "./Roots.css";
 import { Outlet } from "react-router-dom";
 import Navbar from "../Header/Navbar";
-import Footer from "../Main/Footer";
+import Footer from "../Footer/Footer";
 
 const Root = () => {
   return (

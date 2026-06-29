@@ -3,12 +3,12 @@ import logoPng from "../assets/logo.png";
 import { FaRegHeart } from "react-icons/fa";
 import { RxHamburgerMenu } from "react-icons/rx";
 
-export default function Navbar({ children }) {
+export default function Navbar() {
   // Navigation Links array helper so we don't repeat the NavLink blocks twice
   const links = [
     { name: "Home", path: "/" },
     { name: "Apps", path: "/apps" },
-    { name: "Installation", path: "/installation" },
+    { name: "Installation", path: "/installedApps" },
   ];
 
   return (
@@ -70,9 +70,6 @@ export default function Navbar({ children }) {
             </button>
           </div>
         </div>
-
-        {/* Injection target for sub-components (like the Hero Banner) */}
-        {children}
       </div>
 
       {/* 2. Mobile Drawer Sidebar Overlay */}
