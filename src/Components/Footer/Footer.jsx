@@ -9,7 +9,7 @@ const Footer = () => {
               H
             </div>
             <span className="text-sm font-bold tracking-wide text-white uppercase">
-              HEROJO
+              Hero.io
             </span>
           </div>
 

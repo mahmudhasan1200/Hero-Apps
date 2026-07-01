@@ -8,21 +8,20 @@ import { useContext } from "react";
 import { AppContext } from "../GlobalContext/AppContext";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import AppNotFound from "../ErrorPages/AppErrorPage";
 
 export default function AppDetailsPage() {
   // the data for the App details
   const appData = useRouteLoaderData("root");
   const { appId } = useParams();
+  // finding the clicked App
   const app = appData?.find((app) => app.id === Number(appId));
 
   // Pulling the Global Context Data
   const { installApp, installedApps } = useContext(AppContext);
+
   if (!app) {
-    return (
-      <div className="text-center py-20 font-sans text-error">
-        Application Not Found!
-      </div>
-    );
+    return <AppNotFound />;
   }
   // The runtime check for installed apps
   const isInstalled = installedApps.some((item) => item.id === app.id);

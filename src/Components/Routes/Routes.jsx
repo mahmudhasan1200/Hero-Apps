@@ -4,6 +4,7 @@ import AllAppsPage from "../Main/AllAppsPage";
 import HomePage from "../Main/HomePage";
 import AppDetailsPage from "../Main/AppDetailsPage";
 import InstallationPage from "../Main/InstallaitonPage";
+import ErrorPage from "../ErrorPages/ErrorPage";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,11 @@ const router = createBrowserRouter([
       {
         path: "/installedApps",
         Component: InstallationPage,
+      },
+      // The Error page
+      {
+        path: "*",
+        Component: ErrorPage,
       },
     ],
   },
